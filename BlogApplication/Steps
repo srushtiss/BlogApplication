@@ -1,0 +1,16 @@
+ER Diagram
+Project Setup and DB connectivity
+	-created packages
+	-configured DB
+USER API
+	-used DTO for data transfer
+	-create global exception handler using custom exceptions
+	-used ModelMapper for map objects - userDto to user and user to userDto
+		-add ModelMapper mavend dependency
+		-declare modelmapper bean in main class which will be autowired in service class
+Category API
+	-do in the same way as User Api
+POST API
+	-created relation between post and user, post and category
+	-every category can have mupltiple posts (one to many)
+	-every user can have multiple posts (one to many)

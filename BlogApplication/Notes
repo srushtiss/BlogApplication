@@ -1,0 +1,26 @@
+We have used UserRepository interface. SInce it is a repository it cannot be autoqired as it does 
+not have implementation. BUT in UserServiceaImpl class we have @Autowired userrepo? HOW
+this is possible?
+Answer-----> Spring dynamically at runtime creates class of the repositeries interface
+
+
+Diiference between @NotNull, @NotEmpty, @NotBlank in spring validation
+String name = null;
+@NotNull: false
+@NotEmpty: false
+@NotBlank: false
+
+String name = "";
+@NotNull: true
+@NotEmpty: false
+@NotBlank: false
+
+String name = " ";
+@NotNull: true
+@NotEmpty: true
+@NotBlank: false
+
+String name = "Great answer!";
+@NotNull: true
+@NotEmpty: true
+@NotBlank: true

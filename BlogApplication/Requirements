@@ -1,0 +1,38 @@
+Client Requirements:
+-> User can create,update,delete and list blog/articles
+-> user can create,update,delete comment on the blog
+-> categorize the posts according to categories
+-> new user should be able to register to application
+-> user should be able to login to application
+-> post includes one picture too
+
+Technical Stuff:
+-> Post API
+-> Comment API
+-> Login API
+-> Register API
+-> Posts API include pagination and sorting
+-> User input validation handling
+-> exception handling
+-> role based authentication/security with APIs
+-> JWT based authentication
+-> Document all rest apis
+-> Deploy the backend application on any cloud platform
+
+Technologies
+-> Spring Boot
+-> Java 8+
+-> Maven
+-> STS IDE
+-> Apache Tomcat
+-> Spring core,Spring security, Spring JPA
+-> MySQL database
+-> Postman
+-> Swagger for API documentation
+-> AWS EC2 for deployment
+
+Resources for this Application
+-> User
+-> Post
+-> Category
+-> Comment
